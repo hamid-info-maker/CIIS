@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# CIIS runtime data — never commit a real database or real evidence files
+database/ciis.db
+database/*.db
+data/uploads/
+backups/*.db
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
